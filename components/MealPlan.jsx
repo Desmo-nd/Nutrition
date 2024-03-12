@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     },
     container: {
         width: 329,
-        height: 400,
+        height: 425,
         // marginTop: 20,
         marginHorizontal: 15,
     
