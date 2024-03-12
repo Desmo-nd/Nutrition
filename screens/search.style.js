@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
         marginVertical:SIZES.large,
         height:50,
         marginHorizontal:SIZES.small,
+        backgroundColor:COLORS.secondary,
     },
 
     searchIcon:{
