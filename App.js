@@ -42,11 +42,11 @@ export default function App() {
           component={BottomTabNavigation}
           options={{headerShown:false }}
         /> 
-        <Stack.Screen 
-          name="FrontPage"
-          component={FrontPage}
-          options={{headerShown:false }}
-        />
+        // <Stack.Screen 
+        //   name="FrontPage"
+        //   component={FrontPage}
+        //   options={{headerShown:false }}
+        // />
         <Stack.Screen 
           name="Home" 
           component={Home}
