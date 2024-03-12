@@ -138,14 +138,14 @@ const Profile = ( {navigation}) => {
 
                     
                     }}>My Account</Text>
-                  <TouchableOpacity onPress={() => deleteAccount() }>
+                  <TouchableOpacity >
                     <View style={style.menuItem(0.2)}>
                       <AntDesign
                         name="deleteuser"
                         size={24}
                         color={COLORS.primary}
                       />
-                      <Text style={style.menuText}>Condition</Text>
+                      <Text style={style.menuText}>Health Status</Text>
                     </View>
                   </TouchableOpacity>
                   <TouchableOpacity>
@@ -155,13 +155,13 @@ const Profile = ( {navigation}) => {
                       size={24} 
                       color={COLORS.primary}
                     />
-                      <Text style={style.menuText}> Weaks meal Plan</Text>
+                      <Text style={style.menuText}> Week's meal Plan</Text>
                     </View>
                   </TouchableOpacity>
 
                  
 
-                  <TouchableOpacity onPress={() => deleteAccount() }>
+                  <TouchableOpacity >
                     <View style={style.menuItem(0.2)}>
                       <AntDesign
                         name="deleteuser"
