@@ -14,17 +14,18 @@ const welcome = () => {
             <View style={styles.logobar}>
                 <View style={styles.profile}>                
                     <Image
-                        source={require("../assets/images/profile.jpeg")}
+                        source={require("../assets/images/proff.jpg")}
                         style={{ width: 50, height: 50, borderRadius:999}} />
                     <View style={styles.nameCont}>
                         <Text style={styles.greetings}>Good Morning</Text>
-                        <Text style={styles.name}>Desmond Murangiri</Text>
+                        <Text style={styles.name}>Linda Chepkemoi</Text>
                     </View>
                 </View>
                 <View style={styles.bell}>
                     <Ionicons name="notifications" size={32} color="black" />
                 </View>
             </View>
+            
             
            
             <View style={styles.innerContainer}>
